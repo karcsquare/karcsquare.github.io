@@ -353,7 +353,7 @@ var APP_DATA = {
   ],
   "name": "SRI GYM",
   "settings": {
-    "mouseViewMode": "qtvr",
+    "mouseViewMode": "drag",
     "autorotateEnabled": true,
     "fullscreenButton": true,
     "viewControlButtons": true
