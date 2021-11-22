@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-cardio-section",
-      "name": "Cardio Section",
+      "id": "0-section-c",
+      "name": "Section C",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.12904422321853204,
-        "pitch": 0.24005917119103515,
+        "yaw": 1.0159689959919191,
+        "pitch": 0.1684652039564618,
         "fov": 1.2856555038782131
       },
       "linkHotspots": [
         {
-          "yaw": -2.642634774839486,
-          "pitch": 0.3643200524179857,
+          "yaw": 0.31876171450763024,
+          "pitch": 0.4900601371582347,
           "rotation": 0,
-          "target": "5-jumba-area"
+          "target": "1-section-b"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-cycling-area",
-      "name": "Cycling Area",
+      "id": "1-section-b",
+      "name": "Section B",
       "levels": [
         {
           "tileSize": 256,
@@ -62,23 +62,29 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.4018228791858487,
-        "pitch": 0.08209805261035541,
+        "yaw": 2.0720517798021554,
+        "pitch": 0.2894041491330128,
         "fov": 1.2856555038782131
       },
       "linkHotspots": [
         {
-          "yaw": 1.6993769140782078,
-          "pitch": 0.2892002034481731,
+          "yaw": 1.4533118733278414,
+          "pitch": 0.3669005950566113,
           "rotation": 0,
-          "target": "2-dumble-area"
+          "target": "2-section-a"
+        },
+        {
+          "yaw": -1.6260304376836991,
+          "pitch": 0.5317289056566192,
+          "rotation": 0,
+          "target": "0-section-c"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-dumble-area",
-      "name": "Dumble Area",
+      "id": "2-section-a",
+      "name": "Section A",
       "levels": [
         {
           "tileSize": 256,
@@ -100,72 +106,28 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.5547934362320177,
-        "pitch": 0.10220609424566263,
+        "yaw": -0.8868909678126276,
+        "pitch": 0.18324285342631974,
         "fov": 1.2856555038782131
       },
       "linkHotspots": [
         {
-          "yaw": 0.7516305678373616,
-          "pitch": 0.26067388482756826,
+          "yaw": 2.9735729091820513,
+          "pitch": 0.28433947765443435,
           "rotation": 0,
-          "target": "3-corner-area"
+          "target": "3-reception-area"
         },
         {
-          "yaw": -2.126419020275817,
-          "pitch": 0.3008638041084559,
+          "yaw": 0.15120512197156977,
+          "pitch": 0.3381544045564393,
           "rotation": 0,
-          "target": "1-cycling-area"
+          "target": "1-section-b"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-corner-area",
-      "name": "Corner Area",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 2.0071473099839636,
-        "pitch": 0.11842781964553595,
-        "fov": 1.2856555038782131
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.08930676928464,
-          "pitch": 0.22711448813522495,
-          "rotation": 0,
-          "target": "4-reception-area"
-        },
-        {
-          "yaw": 2.9391098057773366,
-          "pitch": 0.309024523384263,
-          "rotation": 0,
-          "target": "2-dumble-area"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-reception-area",
+      "id": "3-reception-area",
       "name": "Reception Area",
       "levels": [
         {
@@ -188,72 +150,22 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.934368938499258,
-        "pitch": 0.12333924024147613,
+        "yaw": 1.1442215046883657,
+        "pitch": 0.09240201381266289,
         "fov": 1.2856555038782131
       },
       "linkHotspots": [
         {
-          "yaw": -1.008946838514273,
-          "pitch": 0.31409338125977015,
+          "yaw": 1.383553755460154,
+          "pitch": 0.27086202201032705,
           "rotation": 0,
-          "target": "5-jumba-area"
-        },
-        {
-          "yaw": 1.6102570039094175,
-          "pitch": 0.2249291488971661,
-          "rotation": 0,
-          "target": "3-corner-area"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-jumba-area",
-      "name": "Jumba Area",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 2.6576338308124576,
-        "pitch": 0.12810501751235215,
-        "fov": 1.2856555038782131
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.835107626663273,
-          "pitch": 0.33410837237586044,
-          "rotation": 0,
-          "target": "0-cardio-section"
-        },
-        {
-          "yaw": 1.3975759202143507,
-          "pitch": 0.25996475543715114,
-          "rotation": 0,
-          "target": "4-reception-area"
+          "target": "2-section-a"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "GYM INTERIOR",
+  "name": "DEPARTMENTAL STORE INTERIOR",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
